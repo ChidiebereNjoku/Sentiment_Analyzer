@@ -1,6 +1,6 @@
 # Sentiment Analyzer
 ## Description
-Sentiment-Analyzer is an advanced natural language processing (NLP) project designed to distinguish between positive and negative sentiments in user-provided text inputs. This model excels in understanding the nuances of human emotions expressed in text, addressing class imbalance using SMOTE. It offers high accuracy and robustness by leveraging techniques like data augmentation and buiding model using LSTM. This project is crucial for sentiment monitoring in various domains such as customer service, social media analysis, and market research.
+Sentiment-Analyzer is an advanced natural language processing (NLP) project designed to distinguish between positive and negative sentiments in user-provided text inputs. This model excels in understanding the nuances of human emotions expressed in text. It offers high accuracy and robustness by leveraging LSTM(recurrent neural network (RNN) architecture). This project is crucial for sentiment monitoring in various domains such as customer service, social media analysis, and market research.
 
 ## Features
 Accurate Sentiment Classification: Detects positive and negative sentiments in user-provided text inputs with high precision.
@@ -8,7 +8,7 @@ High Accuracy: Utilizes LSTM Model to significantly enhance model performance.
 Real-time Prediction: Provides real-time sentiment predictions for user-entered text.
 
 Data Augmentation: Uses text data augmentation techniques to expand the training dataset and improve model robustness.
-End-to-End Solution: Comprehensive workflow from data collection to full deployment as a web application accessible via this URL: https://sentimentanalyzer.streamlit.app/
+End-to-End Solution: Comprehensive workflow from data collection to full deployment as a web application accessible via this URL: https://sentiment-analyzer-8i7k.onrender.com
 
 ## Importance of Sentiment Analysis Models
 Sentiment analysis models are vital in various domains to understand and respond to human emotions effectively:
@@ -19,9 +19,10 @@ Content Moderation: Assists in identifying and managing inappropriate or harmful
 Brand Monitoring: Tracks brand sentiment over time, helping businesses maintain a positive reputation.
 
 Deployment
-The deployment process includes end-to-end implementation from data collection to full deployment, ensuring a seamless user experience. This web app can be accessed at this URL: https://sentimentanalyzer.streamlit.app/
+The deployment process includes end-to-end implementation from data collection to full deployment, ensuring a seamless user experience. This web app can be accessed at this URL: https://sentiment-analyzer-8i7k.onrender.com
 
 ## Acknowledgments
 TensorFlow
 Keras
+streamlit
 Special thanks to all contributors and the open-source community.
